@@ -39,7 +39,6 @@ const AppNavigator: React.FC<{}> = ({ }) => {
         }}>
         <Stack.Screen name={'SplashScreen'} component={SplashScreen} />
         <Stack.Screen name={'Dashboard'} component={Dashboard} />
-        {/* <Stack.Screen name={'Dashboard'} component={Dashboard} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );

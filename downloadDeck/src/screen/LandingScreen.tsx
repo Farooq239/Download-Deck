@@ -23,17 +23,17 @@ const LandingScreen: React.FC<{ navigation: any }> = ({ navigation }) => {
                 </View>
 
                 <View style={{ flexDirection: 'row' }}>
-                    <Text style={{ fontSize: 50, color: ColorSet.green }}>Multiple</Text>
+                    <Text style={{ fontSize: 24, color: ColorSet.green }}>Multiple</Text>
                     <View style={{ paddingLeft: 10 }}>
-                        <Text style={{ fontSize: 50, color: ColorSet.white, fontWeight: '600' }}>Source</Text>
+                        <Text style={{ fontSize: 24, color: ColorSet.white, fontWeight: '600' }}>Source</Text>
                     </View>
                 </View>
                 <View style={{ width: '100%', marginTop: 15 }}>
-                    <Text style={{ fontSize: 15, color: ColorSet.white }}>Download Deck is the easiest application to download videos from Facebook,Instagram and youtube</Text>
+                    <Text style={{ fontSize: 14, color: ColorSet.white }}>Download Deck is the easiest application to download videos from Facebook,Instagram and youtube</Text>
                 </View>
                 <View style={{ marginTop: 20 }}>
                     <TouchableOpacity>
-                        <Button label='Get Started' rightIconSource={Icons.ic_rightIcons} labelStyle={{ color: ColorSet.white, paddingRight: 30, fontSize: 18 }} buttonStyle={{ width: '50%', borderRadius: 50, height: 70, backgroundColor: ColorSet.green }} onPress={getStartedHandler} rightIconStyle={{ tintColor: ColorSet.white }} />
+                        <Button label='Get Started' rightIconSource={Icons.ic_rightIcons} labelStyle={{ color: ColorSet.white, paddingRight: 30, fontSize: 18 }} buttonStyle={{ width: '50%', borderRadius: 50, height: 40, backgroundColor: ColorSet.green }} onPress={getStartedHandler} rightIconStyle={{ tintColor: ColorSet.white }} />
                     </TouchableOpacity>
                 </View>
             </View>

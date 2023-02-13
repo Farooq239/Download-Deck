@@ -6,7 +6,6 @@ import AppNavigator from './src/navigation/AppNavigation';
 const App = () => {
   return (
     <View style={styles.navigationContainer} >
-      {/* <Text >Download Deck</Text> */}
       <AppNavigator />
     </View>
   );

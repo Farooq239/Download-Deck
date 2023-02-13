@@ -17,18 +17,24 @@ const Home: React.FC<{ navigation: any }> = ({ navigation }) => {
 
     const facebookHandler = () => {
         setFacbookCheck(true)
-        navigation.navigate("DownloadScreen", { facebookCheck: true, instagramCheck: false, youtubeCheck: false })
+        navigation.navigate("DownloadScreen", {
+            facebookCheck: true, instagramCheck: false, youtubeCheck: false
+        })
     }
 
     const instagramHandler = () => {
         setInstagramCheck(true)
-        navigation.navigate("DownloadScreen", { facebookCheck: false, instagramCheck: true, youtubeCheck: false })
+        navigation.navigate("DownloadScreen", {
+            facebookCheck: false, instagramCheck: true, youtubeCheck: false
+        })
 
     }
 
     const youtubeHandler = () => {
         setYoutubeCheck(true)
-        navigation.navigate("DownloadScreen", { facebookCheck: false, instagramCheck: false, youtubeCheck: true })
+        navigation.navigate("DownloadScreen", {
+            facebookCheck: false, instagramCheck: false, youtubeCheck: true
+        })
 
     }
     return (
@@ -40,7 +46,7 @@ const Home: React.FC<{ navigation: any }> = ({ navigation }) => {
                         <View style={{ marginVertical: 5 }}>
                             <Image source={Icons.ic_faceBook} style={{ alignSelf: 'center', width: 80, height: 80 }} />
                         </View>
-                        <Text style={{ textAlign: 'center',color : ColorSet.white }}>Facebook</Text>
+                        <Text style={{ textAlign: 'center', color: ColorSet.white }}>Facebook</Text>
                     </View>
                 </TouchableOpacity>
                 <TouchableOpacity style={{ width: '45%', }} onPress={() => instagramHandler()}>
@@ -48,7 +54,7 @@ const Home: React.FC<{ navigation: any }> = ({ navigation }) => {
                         <View style={{ marginVertical: 5 }}>
                             <Image source={Icons.ic_instagram} style={{ alignSelf: 'center', width: 70, height: 80, resizeMode: 'contain' }} />
                         </View>
-                        <Text style={{ textAlign: 'center' ,color : ColorSet.white}}>Instagram</Text>
+                        <Text style={{ textAlign: 'center', color: ColorSet.white }}>Instagram</Text>
                     </View>
                 </TouchableOpacity>
                 <TouchableOpacity style={{ width: '45%' }} onPress={() => youtubeHandler()}>
@@ -56,7 +62,7 @@ const Home: React.FC<{ navigation: any }> = ({ navigation }) => {
                         <View style={{ marginVertical: 5 }} >
                             <Image source={Icons.ic_youtubeIcon} style={{ alignSelf: 'center', width: 80, height: 80 }} />
                         </View>
-                        <Text style={{ textAlign: 'center',color : ColorSet.white }}>YouTube</Text>
+                        <Text style={{ textAlign: 'center', color: ColorSet.white }}>YouTube</Text>
                     </View>
                 </TouchableOpacity>
             </View>
