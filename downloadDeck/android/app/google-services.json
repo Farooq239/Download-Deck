@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1056879518589",
+    "project_id": "mepcoapp",
+    "storage_bucket": "mepcoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056879518589:android:4f94df6d0a25892dc62214",
+        "android_client_info": {
+          "package_name": "com.downloaddeck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056879518589-8mp2s5cfq9799h0v990bbtpupscgb5mh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHD7ASbyvbPRXgENEhZ81Bqkg-EI9n2dA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056879518589-8mp2s5cfq9799h0v990bbtpupscgb5mh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
